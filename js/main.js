@@ -348,12 +348,32 @@
 // Массивы!!!
 
 
-let arr = [
-    { name: 'Вася', age: 36 },
-    { name: 'Коля', age: 18 },
-    { name: 'Оля', age: 12 },
-];
-let resultOne = arr.find(function(item, index, array) {
-    return item.age == 18;
-});
-console.log(resultOne);
+// let arr = [
+//     { name: 'Вася', age: 36 },
+//     { name: 'Коля', age: 18 },
+//     { name: 'Оля', age: 12 },
+// ];
+// let resultOne = arr.find(function(item, index, array) {
+//     return item.age == 18;
+// });
+// console.log(resultOne);
+
+// let i = 2,
+//     j = 4;
+
+// checkiandj:
+//   while (i < 4) {
+//     console.log(i);
+//     i += 1;
+//     checkj:
+//       while (j > 4) {
+//         console.log(j);
+//         j -= 1;
+//         if ((j % 2) != 0) {
+//           continue checkj;
+//         }
+//         console.log(j + " чётное.");
+//       }
+//       console.log("i = " + i);
+//       console.log("j = " + j);
+//   }
